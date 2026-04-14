@@ -4,6 +4,7 @@ set -e
 cd /Volume/gridnet_ws
 
 source /opt/ros/foxy/setup.bash
+exec colcon build 
 source install/setup.bash
 
 # Default namespace if not provided

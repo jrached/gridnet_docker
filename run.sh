@@ -1,5 +1,5 @@
 sudo docker run -it --rm \
-  --gpus all \
+  --runtime nvidia \
   --network host \
   -e ROS_DOMAIN_ID=7 \
   -e RMW_IMPLEMENTATION=rmw_cyclonedds_cpp \
