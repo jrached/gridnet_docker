@@ -1,3 +1,3 @@
 [submodule "Volume/PointPillars"]
 	path = Volume/PointPillars
-	url = https://github.com/jrached/PointPillars.git
+	url = git@github.com:jrached/PointPillars.git
