@@ -1,3 +1,9 @@
 [submodule "Volume/PointPillars"]
 	path = Volume/PointPillars
 	url = git@github.com:jrached/PointPillars.git
+[submodule "gridnet_pkg"]
+	path = gridnet_pkg
+	url = git@github.com:jrached/gridnet_pkg.git
+[submodule "Volume/gridnet_ws/src/gridnet_pkg"]
+	path = Volume/gridnet_ws/src/gridnet_pkg
+	url = git@github.com:jrached/gridnet_pkg.git
