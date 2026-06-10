@@ -205,3 +205,8 @@ cython_debug/
 marimo/_static/
 marimo/_lsp/
 __marimo__/
+
+# gridnet_ws
+Volume/gridnet_ws/install 
+Volume/gridnet_ws/log
+Volume/gridnet_ws/build
