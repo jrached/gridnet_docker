@@ -17,6 +17,8 @@ RUN apt-get update -o Acquire::ForceIPv4=true && apt-get install -y \
     software-properties-common \
     build-essential \
     git \
+    xterm \
+    gdb \
     && rm -rf /var/lib/apt/lists/*
 
 # ---------------- Locale ----------------
