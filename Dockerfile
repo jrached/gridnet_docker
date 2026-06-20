@@ -110,7 +110,7 @@ RUN python3 -m pip uninstall -y pandas matplotlib && \
 
 
 ENV RMW_IMPLEMENTATION=rmw_cyclonedds_cpp
-ENV ROS_DOMAIN_ID=0
+ENV ROS_DOMAIN_ID=7
 
 WORKDIR /root
 COPY entrypoint.sh /entrypoint.sh
